@@ -1,0 +1,34 @@
+Sep 12 12:30:22.122 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 12 12:30:22.122 HYPERVISOR: Started on IP = localhost, TCP port = 51452.
+Sep 12 12:30:22.606 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 12 12:30:22.607 HYPERVISOR: exec_cmd: hypervisor working_dir E:\CCNA3\GNS3\02_Wan_Concepts\WanConceptsLab\WanConceptsLab\project-files\dynamips 
+Sep 12 12:30:22.607 GENERAL: working_dir=E:\CCNA3\GNS3\02_Wan_Concepts\WanConceptsLab\WanConceptsLab\project-files\dynamips
+Sep 12 12:30:22.607 HYPERVISOR: exec_cmd: hypervisor working_dir E:\CCNA3\GNS3\02_Wan_Concepts\WanConceptsLab\WanConceptsLab\project-files\dynamips\726b7005-6579-4048-b109-056d63487690 
+Sep 12 12:30:22.607 GENERAL: working_dir=E:\CCNA3\GNS3\02_Wan_Concepts\WanConceptsLab\WanConceptsLab\project-files\dynamips\726b7005-6579-4048-b109-056d63487690
+Sep 12 12:30:22.637 HYPERVISOR: exec_cmd: vm create R5 2 c7200 
+Sep 12 12:30:22.638 VM: VM R5 created.
+Sep 12 12:30:22.638 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5001 
+Sep 12 12:30:22.638 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Sep 12 12:30:22.638 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 12 12:30:22.638 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Sep 12 12:30:22.639 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/idinh/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Sep 12 12:30:22.639 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 12 12:30:22.640 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x62cc930c 
+Sep 12 12:30:22.641 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Sep 12 12:30:22.642 HYPERVISOR: exec_cmd: vm set_ram R5 512 
+Sep 12 12:30:22.643 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Sep 12 12:30:22.643 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Sep 12 12:30:22.645 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 12 12:30:22.645 HYPERVISOR: exec_cmd: vm slot_remove_binding R5 0 0 
+Sep 12 12:30:22.646 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 12 12:30:22.646 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-GE-E 
+Sep 12 12:30:22.647 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 12 12:30:22.647 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-2FE-TX 
+Sep 12 12:30:22.706 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/idinh/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Sep 12 12:36:08.989 HYPERVISOR: exec_cmd: vm get_status R5 
+Sep 12 12:36:08.990 HYPERVISOR: exec_cmd: vm extract_config R5 
+Sep 12 12:36:08.990 HYPERVISOR: exec_cmd: vm delete R5 
+Sep 12 12:36:08.990 VM: VM R5 destroyed.
+Sep 12 12:36:08.993 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 12 12:36:09.191 HYPERVISOR: Stopped.
+Sep 12 12:36:09.191 GENERAL: reset done.
