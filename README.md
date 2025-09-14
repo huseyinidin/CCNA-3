@@ -15,7 +15,7 @@ Her bölümde konu anlatımı, yapılandırma adımları ve uygulamalı örnekle
 
 ---
 
-## 📂 Bölüm 1 – Single-Area and Multi-Area OSPFv2 Configuration
+## 📂 Bölüm 2 – Single-Area and Multi-Area OSPFv2 Configuration
 
 
 📁 [*Section 1: Single-Area and Multi-Area OSPFv2 Configuration*](https://github.com/huseyinidin/CCNA-3/tree/main/Packet_Tracer/01_OSPFv2)
