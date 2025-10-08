@@ -52,7 +52,7 @@ ip access-group 101 out
 ```
 ---
 
-##📝 📝 Numbered IPv4 ACL Yapılandırması
+## 📝 Numbered IPv4 ACL Yapılandırması
 
 **Numbered ACL’ler**, numara ile tanımlandığı için yapılandırmalar genellikle daha kısa olur, ancak okunabilirlik açısından Named ACL'lere göre daha sınırlıdır.
 
@@ -76,7 +76,7 @@ ip access-group 101 in
 ```
 ---
 
-##📝 Named IPv4 ACL Yapılandırması
+## 📝 Named IPv4 ACL Yapılandırması
 
 **Named ACL’ler**, numara yerine isim ile tanımlandığı için okunabilirliği artırır.
 
@@ -96,7 +96,7 @@ ip access-group BLOCK_HTTP in
 ```
 ---
 
-##🔄 ACL Uygulama Yönleri
+## 🔄 ACL Uygulama Yönleri
 
 **ACL uygulama yönü**, trafiğin hangi akışta denetleneceğini belirler.
 
