@@ -35,3 +35,10 @@ Her bölümde konu anlatımı, yapılandırma adımları ve uygulamalı örnekle
 📁 [*Section 4: Network Security Concepts*](https://github.com/huseyinidin/CCNA-3/tree/main/GNS3/03_Network_Security_Concepts)
 
 ---
+
+## 📂 Bölüm 5 – ACL Concepts
+
+
+📁 [*Section 5: ACLs for IPv4 Configuration*](https://github.com/huseyinidin/CCNA-3/tree/main/GNS3/04_ACL_Configuration)
+
+---
