@@ -1,6 +1,6 @@
 # **Network Configuration and Access List**
 
-## **Interface Configuration Router 3 **
+## **Interface Configuration Router 6 **
 ```
 interface FastEthernet1/0
  description LAN interface (60.0 network icin) 53, 80 ve 443'e giden izinler ve yasaklar
