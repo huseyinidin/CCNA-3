@@ -22,7 +22,7 @@ ip access-list extended WEB-FILTER
  remark ----------------------
 ``` 
  **remark ---- 30.10, 30.11, 30.12 ----**
-```
+
 ``` 
  remark 30.10, 30.11 ve 30.12 istemcilerinin ICMP, DNS ve HTTP  erisimi tamamen yasak
  deny   icmp 192.168.30.8 0.0.0.2 host 192.168.10.5
